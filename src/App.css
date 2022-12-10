@@ -1,0 +1,33 @@
+.form-Container{
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: #edebebca;;
+
+}
+.input-container{
+  
+  padding: 50px;
+  background-color: white;
+  box-shadow: 2px 2px 15px lightgray;
+  
+}
+.input-container label{
+  display: inline-block;
+  width: 90px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.input-container button{
+  
+  height: 35px;
+  padding: 0 20px;
+  font-size: 18px;
+  background-color:aquamarine;
+  border: 2px solid orange;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
